@@ -36,9 +36,7 @@ def sum_even():
 
 # Write a function that takes any two integers as input, and prints the
 # sum of all the numbers between the two integers (inclusive) that are divisible by 3.
-def divisible_by_three():
-    num1=10
-    num2=20
+def divisible_by_three(num1,num2):
     sum=0
     for i in range(num1,num2+1):
         if i%3 ==0:
